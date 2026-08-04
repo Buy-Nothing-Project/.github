@@ -206,4 +206,4 @@ Work created during the program belongs to the Organization. Contributing progra
 
 ---
 
-*Last updated: [30.04.2026]. Program structure may evolve; current participants will be notified of any material changes.*
+*Last updated: [04.08.2026]. Program structure may evolve; current participants will be notified of any material changes.*
