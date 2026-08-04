@@ -21,7 +21,7 @@ Participants receive no compensation, salary, stipend, or benefits, and have no 
 
 ## About the Project
 
-The Buy Nothing Project is a 501(c)(3) nonprofit operating a global gift-economy platform with over 1.7 million users. Our community gives, receives, lends, and shares freely with neighbors — no money, no barter, no strings.
+The Buy Nothing Project is a Public Benefit Corporation (PBD, Registered in Delaware) operating a global gift-economy platform with over 1.7 million users. Our community gives, receives, lends, and shares freely with neighbors — no money, no barter, no strings.
 
 We chose to invest in a learning program because we believe the same generosity that animates our community should extend to how we develop the next generation of engineers. We're a small full-time engineering team, which means participants get unusually direct access to mentorship, code review, and a real production codebase — the kinds of learning experiences that are often hard to come by.
 
