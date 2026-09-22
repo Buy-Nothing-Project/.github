@@ -1,0 +1,19 @@
+name: Epic
+description: A goal that needs several issues, often in more than one repository
+type: Epic
+projects: ["Buy-Nothing-Project/6"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: The outcome, and how we will know it worked.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: In scope / out of scope
+  - type: markdown
+    attributes:
+      value: After creating this, add the pieces as **sub-issues** (they can live in other repositories). Progress rolls up here and in the project.

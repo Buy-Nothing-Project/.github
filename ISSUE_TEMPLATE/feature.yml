@@ -1,0 +1,25 @@
+name: Feature
+description: A change members or the team will notice
+type: Feature
+projects: ["Buy-Nothing-Project/6"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: Who has it, and what it costs them today.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What should be true when this is done
+      description: Acceptance criteria, as a checklist someone else could verify.
+      value: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Designs, constraints, out of scope, flags or migrations needed.

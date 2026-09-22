@@ -1,0 +1,16 @@
+name: Task
+description: A piece of work with no member-visible change (chore, refactor, infra, investigation)
+type: Task
+projects: ["Buy-Nothing-Project/6"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What and why
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      value: "- [ ] "
