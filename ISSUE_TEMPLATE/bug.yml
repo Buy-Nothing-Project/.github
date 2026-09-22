@@ -1,7 +1,7 @@
 name: Bug
 description: Something is broken or behaving wrongly
 type: Bug
-projects: ["Buy-Nothing-Project/6"]   # ← real project number
+projects: ["Buy-Nothing-Project/6"]
 body:
   - type: textarea
     id: what
