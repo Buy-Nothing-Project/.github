@@ -1,0 +1,36 @@
+name: Bug
+description: Something is broken or behaving wrongly
+type: Bug
+projects: ["Buy-Nothing-Project/6"]   # ← real project number
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is happening
+      description: What you saw, and what you expected instead. Include numbers and times (UTC) if you have them.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      multiple: true
+      options: [Web, Mobile iOS, Mobile Android, Admin, API, Infrastructure, Campaigns / email, Data]
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options: [Production, Staging, Dev, Local]
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Steps to reproduce, log lines, screenshots, links. Never paste member emails, names, tokens or cookies.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Who is affected, and how badly
